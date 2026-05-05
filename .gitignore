@@ -1,4 +1,8 @@
 .DS_Store
+.codex
+.codex/
+*.Identifier
+*:Zone.Identifier
 __pycache__
 ckpts
 *.zip

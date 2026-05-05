@@ -5,6 +5,13 @@
 # SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2605.01466"><img src="https://img.shields.io/badge/arXiv-2605.01466-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://github.com/zay002/SplAttN-Public"><img src="https://img.shields.io/badge/GitHub-SplAttN--Public-181717.svg?logo=github" alt="GitHub"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/PyTorch-%3E%3D1.8.0-ee4c2c.svg?logo=pytorch" alt="PyTorch">
+</p>
+
+<p align="center">
   <strong>ICML 2026 Spotlight</strong>
 </p>
 
@@ -13,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://openreview.net/forum?id=vTp9JToZl9">Paper</a> |
+  <a href="https://arxiv.org/abs/2605.01466">Paper</a> |
   <a href="https://drive.google.com/drive/folders/1eveJZJNVdZEcpof2TuKfSiY9luMTXOWz?usp=sharing">Pretrained Models</a>
 </p>
 
@@ -29,7 +36,8 @@ Although multi-modal learning has advanced point cloud completion, the theoretic
 
 ## 🔥 News
 
-- **2026.05**: SplAttN has been accepted to **ICML 2026** and selected as a **Spotlight** paper.
+- **2026.05.05**: The arXiv paper link and citation have been updated.
+- **2026.04.30**: SplAttN has been accepted to **ICML 2026** and selected as a **Spotlight** paper.
 - Code and pretrained checkpoints are released. Additional project materials will be updated in this repository.
 
 ## ✨ Highlights
@@ -163,13 +171,14 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch \
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{
-anonymous2026splattn,
-title={SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion},
-author={Zhaoyang Li and Zhichao You and Tianrui Li},
-booktitle={Forty-third International Conference on Machine Learning},
-year={2026},
-url={https://openreview.net/forum?id=vTp9JToZl9}
+@misc{li2026splattnbridging2d3d,
+      title={SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion}, 
+      author={Zhaoyang Li and Zhichao You and Tianrui Li},
+      year={2026},
+      eprint={2605.01466},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.01466}, 
 }
 ```
 
