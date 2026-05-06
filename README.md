@@ -37,6 +37,7 @@ Although multi-modal learning has advanced point cloud completion, the theoretic
 
 ## 🔥 News
 
+- **2026.05.06**: The three pretrained model weights have been uploaded to [Hugging Face Models](https://huggingface.co/models?search=SplAttN).
 - **2026.05.06**: SplAttN is now available on [Hugging Face Papers](https://huggingface.co/papers/2605.01466).
 - **2026.05.05**: The arXiv paper link and citation have been updated.
 - **2026.04.30**: SplAttN has been accepted to **ICML 2026** and selected as a **Spotlight** paper.
