@@ -6,7 +6,8 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2605.01466"><img src="https://img.shields.io/badge/arXiv-2605.01466-b31b1b.svg" alt="arXiv"></a>
-  <a href="https://github.com/zay002/SplAttN-Public"><img src="https://img.shields.io/badge/GitHub-SplAttN--Public-181717.svg?logo=github" alt="GitHub"></a>
+  <a href="https://huggingface.co/papers/2605.01466"><img src="https://img.shields.io/badge/Hugging%20Face-Papers-ffcc4d.svg?logo=huggingface&logoColor=black" alt="Hugging Face Papers"></a>
+  <a href="https://github.com/zay002/SplAttN-Public"><img src="https://img.shields.io/badge/GitHub-SplAttN-181717.svg?logo=github" alt="GitHub"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
   <img src="https://img.shields.io/badge/PyTorch-%3E%3D1.8.0-ee4c2c.svg?logo=pytorch" alt="PyTorch">
 </p>
@@ -36,6 +37,7 @@ Although multi-modal learning has advanced point cloud completion, the theoretic
 
 ## 🔥 News
 
+- **2026.05.06**: SplAttN is now available on [Hugging Face Papers](https://huggingface.co/papers/2605.01466).
 - **2026.05.05**: The arXiv paper link and citation have been updated.
 - **2026.04.30**: SplAttN has been accepted to **ICML 2026** and selected as a **Spotlight** paper.
 - Code and pretrained checkpoints are released. Additional project materials will be updated in this repository.
